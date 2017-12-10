@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='ISBN, Author, Title'
+        android:id='@+id/book'/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='Department Name'
+        android:id='@+id/department'/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='Course Number'
+        android:id='@+id/course'/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='Max Price'
+        android:id='@+id/price'/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id='@+id/buy'
+        android:text='Buy'
+        android:onClick="third"
+        android:layout_weight="0.84" />
+
+    <Button
+        android:id='@+id/sell'
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:text='Sell'
+        android:layout_weight="0.11" />
+
+</LinearLayout>
